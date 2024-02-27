@@ -21,16 +21,14 @@ app.use(bodyParser.json());
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
 
-require("dotenv").config();
 const Imap = require("imap");
 const { simpleParser } = require("mailparser");
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
-
 const imapConfig = {
-  user: 'shaikdadavali092@gmail.com',
-  password: 'sgac iuyk wqcj lonr',
+  user: "thinkailabs111@gmail.com",
+  password: "zwvu hhtq cavs zkmr",
   host: 'imap.gmail.com',
   port: 993,
   tls: true,
@@ -573,8 +571,8 @@ const sendEmail = async (formData, toEmail) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'shaikdadavali092@gmail.com',
-        pass: 'hhwp sfvi pvlr ufzx',
+        user: "thinkailabs111@gmail.com",
+        pass: "zwvu hhtq cavs zkmr"
       },
     });
 
@@ -603,7 +601,7 @@ const sendEmail = async (formData, toEmail) => {
            <td>${formData.totalPrice}</td>
          </tr>
        </table>
-       <p>Click <a href="http://localhost:3000/inboxpage">here</a> to view the details in the application.</p>
+       <p>Click <a href="http://54.66.46.110:3001">here</a> to view the details in the application.</p>
         
      `;
 

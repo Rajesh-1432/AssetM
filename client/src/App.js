@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Layout } from 'antd';
-// import Sidebar from './Sidebar';
-import Dashboard from './Pages/Dashboard';
 import Createast from './Pages/Createast';
 import Ast from './Pages/Asset';
 import InboxPage from './Pages/InboxPage';
@@ -16,19 +14,10 @@ const App = () => {
   return (
     <Router>
       <Layout style={{ minHeight: '100vh' }}>
-        {/* <Sidebar /> */}
         <Layout>
           <Content>
             <Routes>
               <Route path="/login" element={<LoginPage />} />
-              {/* <Route
-                path="/dashboard"
-                element={
-                  <Protected>
-                    <Dashboard />
-                  </Protected>
-                }
-              /> */}
               <Route
                 path="/"
                 element={

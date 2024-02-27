@@ -29,30 +29,3 @@ const Layout = ({ children }) => {
 
 export default Layout;
 
-
-{/* // import React from 'react';
-// import Sidebar from './Sidebar';
-// import Navbar from './Navbar';
-
-// const Layout = ({ children }) => {
-//     return (
-  
-//       <div style={{ display: 'flex', height: '100%',overflow:'clip'}}>
-//       <Sidebar />
-//       <div style={{ flex: '1', boxSizing: 'border-box',width:'100%'}}>
-//           <div style={{ height: '80px',  zIndex: 50, width:'100%',}}>
-//               <Navbar />
-//           </div>
-//           <div style={{  boxSizing: 'border-box' ,margin:'1%'}}>
-//               {children}
-//           </div>
-//       </div>
-//   </div>
-//     );
-// };
-
-// export default Layout;
-
-
-
-     */}
