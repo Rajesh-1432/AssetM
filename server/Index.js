@@ -601,7 +601,7 @@ const sendEmail = async (formData, toEmail) => {
            <td>${formData.totalPrice}</td>
          </tr>
        </table>
-       <p>Click <a href="http://54.66.46.110:3001">here</a> to view the details in the application.</p>
+       <p>Click <a href="http://35.175.197.106:3001">here</a> to view the details in the application.</p>
         
      `;
 
